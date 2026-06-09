@@ -1,32 +1,16 @@
-.product-page {
-    max-width: 800px; /* Limits width to keep it elegant */
-    margin: 0 auto;
-    padding: 40px 20px;
+body {
+    margin: 0;
+    font-family: 'Georgia', serif; /* Classic luxury feel */
+    background: #fcfcfc;
+    color: #1a1a1a;
+    text-align: center;
 }
-
-.hero-video {
-    width: 100%;
-    margin-bottom: 2rem;
-    border-radius: 4px;
+video {
+    width: 80%;
+    max-width: 500px;
+    margin: 40px auto;
+    display: block;
 }
-
-.spec-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 2rem;
-}
-
-.spec-table td {
-    padding: 15px 0;
-    border-bottom: 1px solid #e0e0e0;
-    text-align: left;
-    font-size: 0.9rem;
-    letter-spacing: 0.05em;
-}
-
-.section-heading {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin-top: 4rem;
-}
+.hero h1 { font-weight: 300; letter-spacing: 0.2em; margin-top: 60px; }
+.description { font-size: 0.9rem; color: #666; }
+.details { padding: 60px 20px; max-width: 600px; margin: auto; }
