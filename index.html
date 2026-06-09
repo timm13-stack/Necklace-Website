@@ -1,31 +1,28 @@
-<main>
-    <!-- Hero -->
-    <section class="hero">
-        <h1 class="title">The Pear Commission</h1>
-        <video autoplay loop muted playsinline poster="cover.jpg">
+<main class="product-page">
+    <!-- Hero / Media Section -->
+    <section class="media-container">
+        <video class="hero-video" autoplay loop muted playsinline poster="diamond-poster.jpg">
             <source src="diamond-loop.mp4" type="video/mp4">
         </video>
+        <h1 class="product-title">Piece No. 001</h1>
     </section>
 
-    <!-- Swiper Gallery -->
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="pear-front.jpg"></div>
-            <div class="swiper-slide"><img src="mount-detail.jpg"></div>
-            <div class="swiper-slide"><img src="counterweight.jpg"></div>
+    <!-- Gallery Slider -->
+    <section class="gallery-container">
+        <div class="swiper">
+            <!-- Your Swiper slides here -->
         </div>
-        <div class="swiper-pagination"></div>
-    </div>
+    </section>
 
-    <!-- Technical Dossier -->
-    <section class="technical-dossier">
-        <h2>Dossier</h2>
-        <div class="spec-grid">
-            <div class="spec-item"><span>Carat</span> 1.02ct</div>
-            <div class="spec-item"><span>Cut</span> Pear Brilliant</div>
-            <div class="spec-item"><span>Color</span> D</div>
-            <div class="spec-item"><span>Clarity</span> VVS2</div>
-            <div class="spec-item"><span>IGI No.</span> LG766611857</div>
-        </div>
+    <!-- Technical Dossier (The "Information" Section) -->
+    <section class="dossier">
+        <h2 class="section-heading">Technical Specifications</h2>
+        <table class="spec-table">
+            <tr><td>Carat Weight</td><td>1.02 Carat</td></tr>
+            <tr><td>Shape</td><td>Pear Brilliant</td></tr>
+            <tr><td>Color Grade</td><td>D</td></tr>
+            <tr><td>Clarity Grade</td><td>VVS2</td></tr>
+            <tr><td>Dimensions</td><td>9.16 × 5.70 × 3.46 mm</td></tr>
+        </table>
     </section>
 </main>
