@@ -1,23 +1,109 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Commission</title>
+    <title>Private Collection</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
-    <main>
-        <section class="hero">
-            <h1>Piece No. 001</h1>
-            <video autoplay loop muted playsinline poster="preview.jpg">
-                <source src="video.mp4" type="video/mp4">
-            </video>
-            <p class="description">1.02ct Pear Brilliant D/VVS2 | 14K White Gold</p>
-        </section>
+
+        <header class="top-accent-bar">
+            <h1>Private Collection</h1>
+            <p class="description">Hand-crafted by choice. One-of-a-kind by design.</p>
+        </header>
+
+<main>
+<section class="main-layout">
+    <!-- Left: Gallery -->
+    <div class="gallery-container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="pendant-front.png" alt="Front"></div>
+                <div class="swiper-slide"><img src="pendant-detail.png" alt="Detail"></div>
+                <div class="swiper-slide"><img src="counterweight.png" alt="Back"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <!-- Right: Information -->
+    <div class="sidebar-info">
+        <h1>L'éclat de Yuka Pendant</h1>
+		<p class="description">Diamond | White Gold</p>
+        <p class="price">$— Private Commision: Not For Aquisition</p>
+        <hr>
+<p class="description">
+        Inspired by the radiance and beauty of Yuka herself, this custom, handcrafted pendant is a 	testament to timeless elegance. Forged with the maker's own adoration and devotion, it is 	designed to hold the love of the hands that shaped it, for the one who 	wears it.
+    </p>
+        <div class="details-sidebar">
+            <h3>Details</h3>
+            <ul>
+		<li><strong>Material:</strong> 14-Carat white gold</li>
+                <li><strong>Center Stone:</strong> 1.02-carat pear brilliant-cut diamond </li>	
+                <li><strong>Paving:</strong> 0.18 ct total weight, 10 round brilliant-cut diamonds</li>
+		<li><strong>Chain:</strong> 18 inch (457 mm) forçat chain</li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
         <section class="details">
             <h2>The Craftsmanship</h2>
             <p>Engineered for perfect orientation; a fixed two-point geometry ensures the diamond remains centered, mirroring every movement.</p>
         </section>
+
+        <section class="info-footer">
+            <div class="dossier">
+                <h2>Diamond Specifications</h2>
+                <ul class="specs">
+                    <li><strong>Carat Weight:</strong> 1.02-Carat</li>
+                    <li><strong>Shape & Cut:</strong> Pear Brilliant</li>
+                    <li><strong>Color:</strong> D</li>
+                    <li><strong>Clarity:</strong> VVS2</li>
+                    <li><strong>Dimensions:</strong> 9.16 × 5.70 × 3.46 mm</li>
+                    <li><strong>Polish:</strong> Excellent</li>
+                    <li><strong>Symmetry:</strong> Excellent</li>
+		    <li><strong>Depth %:</strong> Ideal (60.7%)</li>
+
+</div>
+            <div class="video-preview">
+                <video autoplay loop muted playsinline>
+                    <source src="diamond-loop.mp4" type="video/mp4">
+                </video>
+</ul>
+
+<!-- Button is now outside the list, so it won't mess up list formatting -->
+    <div style="margin-top: 20px;">
+        <a href="certificate.pdf" target="_blank" 
+           style="display: inline-block; padding: 10px 20px; background-color: #152238; color: #fff; text-decoration: none; border-radius: 5px; font-family: sans-serif;">
+          View IGI Certificate
+        </a>
+    </div>
+</div>
+        </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        const swiper = new Swiper('.swiper', {
+          loop: true,
+          grabCursor: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      });
+    </script>
 </body>
 </html>
