@@ -78,13 +78,23 @@ hr {
 .info-footer {
     display: flex;
     gap: 40px;
-    align-items: center;
+    align-items: flex-start;
     margin: 60px auto;
     padding: 40px 20px;
     border-top: 1px solid #e0e0e0;
     max-width: 800px;
 }
 
+.video-preview {
+    flex: 0 0 300px;
+}
+
+.video-preview video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
 .dossier { flex: 2; text-align: left; }
 .dossier h2 { font-size: 1.2rem; margin-bottom: 20px; font-weight: 300; }
 
@@ -92,13 +102,7 @@ hr {
 .specs li { padding: 8px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
 
 .video-preview { flex: 1; max-width: 300px;  }
-.video-preview video {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    border-radius: 4px;
-}
+.video-preview video { width: 100%; border-radius: 4px; }
 
 /* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
