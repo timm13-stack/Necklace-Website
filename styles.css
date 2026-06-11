@@ -91,7 +91,7 @@ hr {
 .specs { list-style: none; padding: 0; margin: 0; }
 .specs li { padding: 8px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
 
-.video-preview { flex: 1; max-width: 300px; height 360px: display: flex  
+.video-preview { flex: 1; max-width: 300px; height; 360px: display: flex  
 }
 
 .video-preview video { width: 100%; height: auto; display: block; border-radius: 4px; object-fit:contain;
