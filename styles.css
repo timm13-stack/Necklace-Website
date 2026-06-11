@@ -92,7 +92,13 @@ hr {
 .specs li { padding: 8px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
 
 .video-preview { flex: 1; max-width: 300px;  }
-.video-preview video { width: 100%; border-radius: 4px; }
+.video-preview video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 4px;
+}
 
 /* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
