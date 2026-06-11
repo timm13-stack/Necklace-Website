@@ -156,3 +156,17 @@ hr {
     --swiper-theme-color: #152238;
 }
 
+/* By default, hide the mobile text */
+.mobile-text {
+    display: none;
+}
+
+/* On screens 768px or smaller, hide desktop and show mobile */
+@media (max-width: 768px) {
+    .desktop-text {
+        display: none;
+    }
+    .mobile-text {
+        display: block;
+    }
+}
