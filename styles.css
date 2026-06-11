@@ -147,3 +147,7 @@ hr {
     font-style: italic;
     margin: 0;
 }
+
+.details-sidebar li {
+    margin-bottom: 0.75rem; /* Adjust this value to increase/decrease the gap */
+}
