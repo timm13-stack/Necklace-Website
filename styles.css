@@ -101,8 +101,8 @@ hr {
 @media (max-width: 768px) {
     .main-layout {
         flex-direction: column;
-        padding: 10px 10px;
-        gap: 15px;
+        padding: 10px 15px;
+        gap: 10px;
     }
     
     .gallery-container {
