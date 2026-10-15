@@ -102,7 +102,7 @@ hr {
     .main-layout {
         flex-direction: column;
         padding: 10px 10px;
-        gap: 10px;
+        gap: 20px;
     }
     
     .gallery-container {
